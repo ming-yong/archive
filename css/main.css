@@ -48,16 +48,35 @@ main {
 }
 
 .icon {
-  margin-bottom    : 10px;
+  margin           : 10px 0;
   margin-left      : 10px;
-  padding          : 10px;
+  padding          : 15px;
   color            : black;
   border-radius    : 50%;
   background-color : rgba(255, 255, 255, 0.95);
-  font-size        : 2em;
 }
 
-@media screen and (max-device-width : 500px) {
+#second-row {
+  margin-left : 10px;
+}
+
+/* the width of the target display area */
+
+@media
+  screen
+  and (max-width : 600px) {
+  main {
+    align-items     : center;
+    flex-direction  : column;
+    justify-content : flex-start;
+  }
+}
+
+/* the width of the device's entire rendering area */
+
+@media
+  screen
+  and (max-device-width : 500px) {
   main {
     align-items     : center;
     flex-direction  : column;
