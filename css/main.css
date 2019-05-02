@@ -57,7 +57,7 @@ main {
   font-size        : 2em;
 }
 
-@media (max-width : 500px) {
+@media screen and (max-width : 500px) {
   main {
     align-items     : center;
     flex-direction  : column;
