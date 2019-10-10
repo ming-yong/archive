@@ -12,11 +12,12 @@ async function getData() {
 	build_response = await build_data.json();
 	write_data = await fetch("./js/writing.json");
 	write_response = await write_data.json();
-	buildNum.textContent = build_response.length;
-	writeNum.textContent = write_response.length;
-	allNum.textContent = write_response.length + build_response.length;
-	allResponse = [...build_response, ...write_response];
-	generateCard(allResponse);
+	return {
+		buildNum: build_response.length,
+		writeNum: write_response.length,
+		allNum: write_response.length + build_response.length,
+		allResponse: [...build_response, ...write_response]
+	};
 }
 
 async function generateCard(response) {
@@ -37,7 +38,14 @@ async function generateCard(response) {
 }
 
 //display all by default
-getData();
+getData()
+	.then(result => {
+		buildNum.textContent = result.buildNum;
+		writeNum.textContent = result.writeNum;
+		allNum.textContent = result.allNum;
+		generateCard(result.allResponse);
+	})
+	.catch(err => alert("Error: " + err + ". Opps, something went wrong, please contact Ming."));
 
 //filter if buttons are clicked
 projectsBtn.addEventListener("click", () => {
