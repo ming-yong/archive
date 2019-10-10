@@ -43,7 +43,8 @@ getData()
 		buildNum.textContent = result.buildNum;
 		writeNum.textContent = result.writeNum;
 		allNum.textContent = result.allNum;
-		generateCard(result.allResponse);
+		allResponse = result.allResponse;
+		generateCard(allResponse);
 	})
 	.catch(err => alert("Error: " + err + ". Opps, something went wrong, please contact Ming."));
 
