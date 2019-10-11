@@ -68,13 +68,18 @@ a:hover {
 	opacity: 1;
 }
 
+.div_builds {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
 .div_build {
-	padding: 0.4em;
+	border: 2px solid rgb(0, 0, 0);
 }
 
 img {
 	width: 100%;
-	border: 2px solid black;
 }
 
 .div_info {
