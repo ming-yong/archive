@@ -31,3 +31,9 @@ $RECYCLE.BIN/
 # VS code
 
 .vscode/
+
+# scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
