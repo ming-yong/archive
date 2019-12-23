@@ -47,7 +47,7 @@ a {
 
 img {
 	max-width: 100%;
-	display: block;
+	display: none;
 	height: auto;
 }
 
@@ -153,5 +153,11 @@ footer {
 				width: 40%;
 			}
 		}
+	}
+}
+
+@media screen and (min-width: 600px) {
+	img {
+		display: block;
 	}
 }
