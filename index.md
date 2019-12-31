@@ -4,7 +4,7 @@ title: Welcome!
 
 Hi. I'm Ming and this is my portfolio/blog/learning notes website. Things are organized in this way:
 
-1. Blog posts are stored in [BLOG]({% link blog.html%}) page.
+1. Blog posts are stored in [BLOG]({% link myBlog.html%}) page.
 2. Projects and practice projects(tutorial projects) are stored in [PROJECTS]({% link projects.html%}) page.
 3. Learning notes(tutorial notes), Building notes(re-explaining practice project code), and other miscellaneous things that "aren't ready to be in a blog post but I want to remember" can be found in [NOTES]({% link notes.html%}) page.
 
