@@ -1,0 +1,78 @@
+####site setting####
+title: Ming
+author: Ming Yong
+description: I write about my learning of computer programming.
+email: mingyong.dev@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ming-yong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: :year/:month/:day/:title/
+markdown: kramdown
+logo: /assets/images/titleImage.jpg
+
+####layout####
+defaults:
+  - scope:
+      path: "tags"
+    values:
+      layout: "tag"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/titleImage.jpg
+      layout: "default"
+
+social-links:
+  repo: https://github.com/ming-yong/ming-yong.github.io
+  github: https://github.com/ming-yong
+  linkedIn: https://www.linkedin.com/in/ming-yong
+  twitter: https://twitter.com/ming__yong
+
+####seo####
+twitter_username: ming__yong
+github_username: ming-yong
+codepen_username: ming-yong
+linkedin_username: ming-yong
+
+twitter:
+  username: ming__yong
+  card: summary
+
+social:
+  name: Ming Yong
+  links:
+    - https://twitter.com/ming__yong
+    - https://www.linkedin.com/in/ming-yong
+    - https://github.com/ming-yong
+
+####plugins####
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+#### Syntax highlighting ####
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

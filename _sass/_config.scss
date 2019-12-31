@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto&display=swap");
+
+$font-title: "Open Sans", sans-serif;
+$font-normal: "Roboto", sans-serif;
+$colors:(
+  "text":black,
+  "background":white,
+  "favorite":rgb(255,140,0),
+  "weak":rgb(47,79,79)
+);
+
+
+@function color($colorClass){
+  @return map-get($colors,$colorClass)
+}

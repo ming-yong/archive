@@ -1,2 +1,8 @@
-# ming-yong.github.io
-Personal website built with HTML, CSS(SCSS), GitHub Pages.
+# Personal website
+
+A All-In-One personal website, [click here to learn more](https://ming-yong.github.io)!
+
+- Built with Jekyll, HTML CSS(SCSS and BEM)
+- Using VS Code, Git Bash, Google Chrome and Firefox
+- Hosted on Github using Github Pages
+- Released under MIT License

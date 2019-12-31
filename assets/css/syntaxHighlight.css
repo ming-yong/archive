@@ -1,0 +1,77 @@
+.highlighter-rouge {
+	color: #000000;
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	padding: 0 0.4rem;
+	white-space: nowrap;	
+}
+
+pre code {
+	display: block;
+	overflow: auto;
+	background-color: #f5f5f5;
+	padding: 1rem;
+	margin: 1em 0;
+}
+
+.highlight code,
+.highlight pre {
+	color: #000000;
+	background-color: #f5f5f5;
+}
+
+.highlight .c/*html comment*/,
+.highlight .c1/*js comment*/ {
+	color: #616161;
+}
+
+.highlight .nt/*html tag*/,
+.highlight .kd/*"const" in js*/,
+.highlight .kc/*boolean value in js, exp "false" in "=false"*/,
+.highlight .ss/*ruby attribute, exp "categories" in "categories:Projects"*/ {
+	color: rgb(0, 0, 0) ;
+}
+
+.highlight .na/*tag attribute, exp "href="*/ {
+	color: #224b00;
+}
+
+.highlight .s/*tag value, exp ""https://website.com"" "in href="blabla""*/ {
+	color: #000000;
+}
+
+.highlight .nx/*variable name, "querySelector" in js*/ {
+	color: #000000;
+}
+
+.highlight .nb/*"document", "Math" in js*/ {
+	color: #000000;
+}
+
+.highlight .o/*"=","=>","*" in js*/,
+.highlight .p /*"(",")",";","{","}" in js, ":" in css*/ {
+	color: #000000;
+}
+
+.highlight .s2/*parameter in js, exp "".score"" in "document.querySelector(".score")"*/,
+.highlight .m/*css value*/,
+.highlight .no/*ruby value, exp "Projects" in "categories:Projects"*/ {
+	color: #000000;
+}
+
+.highlight .mi/*numeric value in js, exp "0" in "=0"*/,
+.highlight .mf/*numeric value in js, exp "0.4"*/ {
+	color: #000000;
+}
+
+.highlight .k/*"return", "if" in js*/ {
+	color: #000000;
+}
+
+.highlight .nc/*css class*/ {
+	color: #000000;
+}
+
+.highlight .nl/*css attribute*/ {
+	color: #000000;
+}

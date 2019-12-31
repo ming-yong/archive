@@ -1,0 +1,19 @@
+---
+title: Notes
+permalink: notes
+---
+
+{% assign sorted_notes = site.categories.Notes | reversed %}
+<ul class="notes__ul">
+{% for note in sorted_notes %}
+    <li class="notes__li">
+      <span class="notes__date">
+        {{ note.date | date: "%b %Y" }}
+      </span>
+      <span class="notes__name">
+        <a href="{{ note.url | relative_url }}" class="notes__link">{{ note.title }}</a>
+      </span>
+      <span class="notes__tag"><a href="{{ site.baseurl }}/tags/{{note.tags }}" class="notes__link"><i class="fas fa-folder folderIcon"></i>{{note.tags}}</a></span>
+    </li>
+{% endfor %}
+</ul>

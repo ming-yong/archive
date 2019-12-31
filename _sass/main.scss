@@ -1,0 +1,60 @@
+@import "config";
+@import "typography";
+@import "headerFooter";
+@import "page";
+@import "post";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll; //add scroll bar to prevent repositioning
+}
+
+body {
+	min-height: 100%;
+	max-width: 100%;
+	display: grid;
+	grid-template-rows: minmax(auto, 20%) auto auto;
+	grid-template-columns: 3% 94% 3%;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	max-height: 3%;
+	margin: auto;
+}
+
+header {
+	grid-area: 1/2/2/3;
+}
+
+main {
+	grid-area: 2/2/3/3;
+}
+
+footer {
+	margin-top: auto;
+	grid-area: 3/2/4/3;
+}
+
+@media screen and (min-width: 650px) {
+	body {
+		grid-template-columns: auto 650px auto;
+	}
+
+	.blog,
+	.notes,
+	.index {
+		&__tag {
+			display: block;
+		}
+	}
+}

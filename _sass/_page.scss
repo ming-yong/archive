@@ -1,0 +1,101 @@
+@mixin pageList() {
+	&__ul {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	&__li {
+		display: flex;
+		flex-wrap: wrap;
+		white-space: nowrap;
+		margin: 0.25em 0;
+	}
+
+	&__date {
+		width: 6rem;
+		text-align: right;
+	}
+
+	&__name {
+		margin-left: 0.5rem;
+		flex: 5;
+	}
+
+	&__link {
+		border: none;
+
+		&:hover,
+		&:focus {
+			border: none;
+		}
+	}
+}
+
+.folderIcon {
+	color: color(favorite);
+	margin-right: 0.25rem;
+}
+
+.externalIcon {
+	color: color(favorite);
+	margin-left: 0.25rem;
+}
+
+.yesIcon {
+	color: color(favorite);
+}
+
+.noIcon {
+	color: color(text);
+}
+
+.blog,
+.notes,
+.index,
+.tags {
+	@include pageList;
+
+	&__tag {
+		display: none;
+	}
+}
+
+.project {
+	&__ul {
+		list-style: none;
+		margin-left: 0;
+	}
+
+	&__li {
+		border-left: 2px solid color(weak);
+		padding-left: 0.5em;
+		margin: 1em;
+	}
+
+	&__name {
+		font-family: $font-title;
+		font-size: 1.3rem;
+		line-height: 1.8rem;
+	}
+
+	&__desc {
+		padding-left: 0.5em;
+		margin: 0;
+	}
+
+	&__links {
+		margin: 0;
+		list-style: none;
+		display: flex;
+	}
+
+	&__link {
+		margin: 0.5em;
+		border: none;
+
+		&:hover,
+		&:focus {
+			border: none;
+		}
+	}
+}

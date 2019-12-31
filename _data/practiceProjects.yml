@@ -1,0 +1,145 @@
+- name: Give Me Gif
+  tech: NodeJS
+  note: 
+  demo: https://give-me-gif.herokuapp.com/
+  code: https://github.com/ming-yong/JS30-12-give-me-gif
+- name: Tic Tac Toe
+  tech: React
+  note: 
+  demo: https://ming-yong.github.io/react-tic-tac-toe/
+  code: https://github.com/ming-yong/react-tic-tac-toe
+- name: Whack a Mole
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-30-whack-a-mole/
+  code: https://github.com/ming-yong/JS30-30-whack-a-mole
+- name: Countdown Clock
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-29-countdown-clock/
+  code: https://github.com/ming-yong/JS30-29-countdown-clock
+- name: Video Speed Controller UI
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-28-speed-controller/
+  code: https://github.com/ming-yong/JS30-28-speed-controller
+- name: Click, Drag, Scroll
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-27-click-drag-scroll/
+  code: https://github.com/ming-yong/JS30-27-click-drag-scroll
+- name: Follow Along Dropdown
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-26-follow-along-dropdown/
+  code: https://github.com/ming-yong/JS30-26-follow-along-dropdown
+- name: Sticky Nav
+  tech: Vanilla JS
+  note: https://ming-yong.github.io/JS30-24-sticky-nav/
+  demo: https://github.com/ming-yong/JS30-24-sticky-nav
+  code: 
+- name: Speech Synthesis
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-23-speech-synthesis/
+  code: https://github.com/ming-yong/JS30-23-speech-synthesis
+- name: Flashlight
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-22-flashlight/
+  code: https://github.com/ming-yong/JS30-22-flashlight
+- name: Voice Note
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-20-voice-note/
+  code: https://github.com/ming-yong/JS30-20-voice-note
+- name: Photo Booth
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-19-photo-booth/
+  code: https://github.com/ming-yong/JS30-19-photo-booth
+- name: Boo
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-16-boo/
+  code: https://github.com/ming-yong/JS30-16-boo
+- name: Taco List
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-15-taco-list/
+  code: https://github.com/ming-yong/JS30-15-taco-list
+- name: Slide in on scroll
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-13-slide-in-on-scroll/
+  code: https://github.com/ming-yong/JS30-13-slide-in-on-scroll
+- name: Video player
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-11-video-player/
+  code: https://github.com/ming-yong/JS30-11-video-player
+- name: Checklist
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-10-checklist/
+  code: https://github.com/ming-yong/JS30-10-checklist
+- name: Canvas
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-08-canvas/
+  code: https://github.com/ming-yong/JS30-08-canvas
+- name: Ajax Type Ahead
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-06-ajax-type-ahead/
+  code: https://github.com/ming-yong/JS30-06-ajax-type-ahead
+- name: Panels image gallery
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-05-panels-image-gallery/
+  code: https://github.com/ming-yong/JS30-05-panels-image-gallery
+- name: Font adjuster
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-03-font-adjuster/
+  code: https://github.com/ming-yong/JS30-03-font-adjuster
+- name: Clock
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-02-clock/
+  code: https://github.com/ming-yong/JS30-02-clock
+- name: Drum kit
+  tech: Vanilla JS
+  note: 
+  demo: https://ming-yong.github.io/JS30-01-drum-kit/
+  code: https://github.com/ming-yong/JS30-01-drum-kit
+- name: Rock paper scissors game
+  tech: Vanilla JS
+  note: 
+  demo: https://codepen.io/ming-yong/full/WVrNBa
+  code: https://codepen.io/ming-yong/pen/WVrNBa
+- name: FreeCodeCamp Responsive Web Design Certification Portfolio
+  tech: HTML,CSS
+  note: no
+  demo: https://codepen.io/ming-yong/full/ewLyWP
+  code: https://codepen.io/ming-yong/pen/ewLyWP?editors=1000
+- name: Sass Basics documentation page
+  tech: HTML,CSS
+  note: no
+  demo: https://codepen.io/ming-yong/full/rgzMRd
+  code: https://codepen.io/ming-yong/pen/rgzMRd
+- name: NVDA landing page
+  tech: HTML,CSS
+  note: no
+  demo: https://codepen.io/ming-yong/full/qGmewz
+  code: https://codepen.io/ming-yong/pen/qGmewz
+- name: Steak preference survey form
+  tech: HTML,CSS
+  note: no
+  demo: https://codepen.io/ming-yong/full/rPxZmM
+  code: https://codepen.io/ming-yong/pen/rPxZmM?editors=1100
+- name: Gary Vaynerchuk tribute page
+  tech: HTML,CSS
+  note: no
+  demo: https://codepen.io/ming-yong/full/LKBrJQ
+  code: https://codepen.io/ming-yong/pen/LKBrJQ

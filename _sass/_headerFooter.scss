@@ -1,0 +1,51 @@
+#header {
+	border-bottom: 5px solid color(weak);
+	font-family: $font-title;
+}
+
+.siteName {
+	color: color(text);
+	text-decoration: none;
+	font-size: 4rem;
+	border: none;
+
+	&__span {
+		font-size: 2rem;
+		margin-left: 0.1em;
+	}
+
+	&:hover,
+	&:focus {
+		border: none;
+	}
+}
+
+.nav {
+	&__ul {
+		margin: 0.5em 0 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__a {
+		font-family: $font-title;
+		color: color(text);
+		border: none;
+	}
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	border-top: 1px solid color(weak);
+
+	&__p {
+		margin: 0;
+	}
+}

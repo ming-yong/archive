@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<ul class="tags__ul">
+  {% for post in site.posts %}
+    {% if post.tags == page.tagName %}
+      <li class="tags__li">
+        <span class="tags__date">
+          {{ post.date | date: "%b %Y" }}
+        </span>
+        <span class="tags__name">
+          <a href="{{ post.url | relative_url }}" class="tags__link">{{ post.title }}</a>
+        </span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

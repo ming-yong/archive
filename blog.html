@@ -1,0 +1,19 @@
+---
+title: Blog
+permalink: blog
+---
+
+{% assign sorted_posts = site.categories.Blog | reversed %}
+<ul class="blog__ul">
+{% for post in sorted_posts %}
+    <li class="blog__li">
+      <span class="blog__date">
+        {{ post.date | date: "%b %Y" }}
+      </span>
+      <span class="blog__name">
+        <a href="{{ post.url | relative_url }}" class="blog__link">{{ post.title }}</a>
+      </span>
+      <span class="blog__tag"><a href="{{ site.baseurl }}/tags/{{post.tags }}" class="blog__link"><i class="fas fa-folder folderIcon"></i>{{post.tags}}</a></span>
+    </li>
+{% endfor %}
+</ul>
