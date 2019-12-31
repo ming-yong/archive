@@ -6,15 +6,15 @@
 - name: MoTo__2019
   desc: A Momentum clone developed by a remote team(team of 4 including me) in 6 week-long Agile sprints. It's now a Chrome Extension and Open Source project.
   note: https://medium.com/@mingyong/introducing-moto-from-chingu-voyage-13-c1c1f9e98f80
-  demo: 
-  code: 
+  demo: https://moto-toucans03.netlify.com/
+  code: https://github.com/chingu-voyages/v13-toucans-team-03
 - name: Favorite-Fonts__2019
   desc: A pre-work submission for entering Chingu program. Mockups such as gif, image and some instructions are provided to complete this project.
   note: 
-  demo: 
-  code: 
+  demo: https://ming-yong.github.io/Favorite-Fonts/
+  code: https://github.com/ming-yong/Favorite-Fonts
 - name: Jekyll Website__2019
   desc: A personal website tailored to my learning process.
   note: 
-  demo: 
-  code: 
+  demo: https://ming-yong.github.io/
+  code: https://github.com/ming-yong/ming-yong.github.io
