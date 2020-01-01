@@ -670,3 +670,11 @@ Another question will be "Why do we need to block this code"
 in "App" component?
 
 I will find it out.
+
+### Update on 1 Jan. 2020
+
+Turns out "componentWillUnmount" and "componentDidMount" are something called [lifecycle method](https://reactjs.org/docs/state-and-lifecycle.html) in React.
+
+And blocking the code is for improving the readability.
+
+Answer thanks to [freeCodeCamp campers](https://www.freecodecamp.org/forum/t/questions-about-drum-machine-code/337433/7).
