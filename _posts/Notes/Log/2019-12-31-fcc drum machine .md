@@ -484,7 +484,7 @@ This is what "App" renders in picture.
 
 ![freeCodeCamp drum machine]({{site.baseurl}}/assets/images/code_drumMachine.PNG)
 
-Looks like it's taking care of the panel functions, I'm only interested in how to connect the sound clips and keys so it can be play with both mouse and keyboard. So to speak, I will dive in the lower component.
+Looks like it's taking care of the panel functions, I'm only interested in how to connect the sound clips and keys so it can be play with both mouse and keyboard. So to speak, I will dive into the lower component.
 
 ### "PadBank" component
 
@@ -518,7 +518,7 @@ class PadBank extends React.Component {
 }
 ```
 
-"PadBank" takes care of playing the sound clips or not. Let's move one component lower.
+"PadBank" determines whether to play the sound clip or not. Let's move one component lower.
 
 ### "DrumPad" component
 
@@ -668,3 +668,5 @@ Another question will be "Why do we need to block this code"
 ```
 
 in "App" component?
+
+I will find it out.
