@@ -1,3 +1,8 @@
+- name: Drum Machine
+  tech: React
+  note: https://ming-yong.github.io/2019/12/31/fcc-drum-machine/
+  demo: https://codepen.io/ming-yong/full/ExaXQjp
+  code: https://codepen.io/ming-yong/pen/ExaXQjp?editors=0010
 - name: Markdown previewer
   tech: React
   note: no
