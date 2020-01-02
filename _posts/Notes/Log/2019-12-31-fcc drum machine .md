@@ -673,8 +673,8 @@ I will find it out.
 
 ### Update on 1 Jan. 2020
 
-Turns out "componentWillUnmount" and "componentDidMount" are something called [lifecycle method](https://reactjs.org/docs/state-and-lifecycle.html) in React.
+Answer thanks to [freeCodeCamp campers](https://www.freecodecamp.org/forum/t/questions-about-drum-machine-code/337433/7).
+
+Turns out "componentWillUnmount" and "componentDidMount" are something called [lifecycle method](https://reactjs.org/docs/state-and-lifecycle.html) in React. We should clean up event listener to avoid memory leak.
 
 And blocking the code is for improving the readability.
-
-Answer thanks to [freeCodeCamp campers](https://www.freecodecamp.org/forum/t/questions-about-drum-machine-code/337433/7).
