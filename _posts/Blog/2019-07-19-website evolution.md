@@ -1,5 +1,5 @@
 ---
-title: Evolution of this website
+title: The evolution of this website
 description: My Jekyll website in its different versions with different problems.
 categories: [Blog] 
 tags: [Blog&Blogging]
@@ -13,9 +13,9 @@ Hello, world. I figure my first blog post should be about my first project, whic
 
 I was feeling quite comfortable with HTML and CSS and wanted to build something more complicated than a webpage on Codepen. Ideally fitting these three criteria:
 
-1. What I will keep using
-2. What I can build without learning too many things
-3. Free to build and free to keep
+1. What I will keep using.
+2. What I can build without learning too many new things.
+3. Free to build and free to keep.
 
 Eventually, I decided to build a blog using Jekyll and Github Pages. I read that a developer should know how to write. As a terrible writer myself,  I think now is the best time to start practicing.
 
@@ -47,7 +47,7 @@ The hamburger menu closes properly. I added a media query `only screen` for mobi
 
 ![second version blog on smaller screen]({{site.baseurl}}/assets/images/blogV2PageSmall.gif)
 
-I thought that would be it. HOWEVER, I soon noticed that I wrote too many notes. Nobody wants to read someone's notes, and they aren't meant to either.
+I thought that would be it. HOWEVER, I soon noticed that I wrote too many notes. Nobody wants to read someone's notes, and they aren't meant to be read by people except me either.
 
 ## Version 3
 
@@ -71,15 +71,15 @@ Right, if I throw my portfolio on the internet, anyone can read it. I spent some
 
 **Potential reader:**
 
-- Someone who wants to hire me
-- Someone who is also learning computer programming
-- Me who wants to copy and paste my notes
+- Someone who wants to hire me.
+- Someone who is also learning computer programming.
+- Me who wants to copy and paste my notes.
 
 **How hiring person use this website:**
 
 -->Landed on home page
 
-Okay, a little bit about this person.(Go to LinkedIn/Github and never comeback)
+Okay, a little bit about this person.(Go to LinkedIn/Github and never comeback).
 
 -->Go to the BLOG page
 
@@ -97,7 +97,7 @@ This person can learn(checked).
 
 For other developers, it's pretty straight forward: what I wrote, what I built and what I learned.
 
-One thing I would like to show the past version me is that the importance, as for providing value to others, might be **blog**(I can share my knowledge)**>projects**(I can build things)**>notes**(I'm doing tutorials) but the amount of time you spent is always **notes>project>blog**.
+One thing I would like to show the past version me is that the importance, as for providing value to others, might be **blog**(I can share my knowledge)**>projects**(I can build things)**>notes**(I'm doing tutorials) but the amount of time you spent is always **notes>projects>blog**.
 
 So, keep learning, everything takes time.
 
