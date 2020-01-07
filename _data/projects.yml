@@ -1,6 +1,6 @@
 - name: 🤖#100FreeQuestions__2019
   desc: A Twitter Bot that retweets tech-related questions with hashtag 100FreeQuestions.
-  note: 
+  note: https://ming-yong.github.io/2019/12/22/100FreeQuestions-twitter-bot/
   demo: https://twitter.com/100FreeCodeQ
   code: https://github.com/ming-yong/100FreeQuestions/
 - name: MoTo__2019
@@ -10,7 +10,7 @@
   code: https://github.com/chingu-voyages/v13-toucans-team-03
 - name: Favorite-Fonts__2019
   desc: A pre-work submission for entering Chingu program. Mockups such as gif, image and some instructions are provided to complete this project.
-  note: 
+  note: https://ming-yong.github.io/2019/12/06/chingu-vouage-13-pre-work-project-tier-1/
   demo: https://ming-yong.github.io/Favorite-Fonts/
   code: https://github.com/ming-yong/Favorite-Fonts
 - name: Jekyll Website__2019
