@@ -30,7 +30,7 @@ Today, I have {{notes}} notes, {{practiceProjects}} practice projects, {{project
 
 ## About me
 
-I'm from Malaysia and native in Chinese Mandarin. I'm currently a [2nd year CPA student](https://www.stlawrencecollege.ca/programs-and-courses/full-time/programs/a_m/computer-programmer-analyst/kingston/) at Kingston, Ontario. I started learning how to code at school and by myself in late 2018. As for now, I'm learning React and completing the [fcc's Front End Libraries Certification](https://www.freecodecamp.org/).
+I'm from Malaysia and my first language is Chinese Mandarin. I'm currently a [2nd year CPA student](https://www.stlawrencecollege.ca/programs-and-courses/full-time/programs/a_m/computer-programmer-analyst/kingston/) in Kingston, Ontario. I started learning how to code at school and by myself in late 2018. As for now, I'm learning React and completing the [fcc's Data Visualization Certification](https://www.freecodecamp.org/).
 
 ### Contact Me
 
