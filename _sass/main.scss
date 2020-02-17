@@ -2,12 +2,12 @@
 @import "typography";
 @import "headerFooter";
 @import "page";
-@import "post";
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	cursor:$cursor;
 }
 
 html {
@@ -31,7 +31,7 @@ img {
 	display: block;
 	height: auto;
 	max-height: 3%;
-	margin: auto;
+	margin: 2em auto;
 }
 
 footer {
@@ -41,13 +41,5 @@ footer {
 @media screen and (min-width: 650px) {
 	html {
 		grid-template-columns: auto 650px auto;
-	}
-
-	.blog,
-	.notes,
-	.index {
-		&__tag {
-			display: block;
-		}
 	}
 }

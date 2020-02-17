@@ -1,0 +1,36 @@
+---
+title: Programming
+---
+
+<h1 class="intro">I am</h1>
+<ul class="intro__list">
+	<li class="intro__about">a full-time <a href="https://www.stlawrencecollege.ca/programs-and-courses/full-time/programs/a_m/computer-programmer-analyst/kingston/">Programming and Analysis</a> student and part-time peer tutor at St.Lawrence College.</li>
+	<li class="intro__about">a freeCodeCamp camper working on <a href="https://www.freecodecamp.org/learn">Data Visualization Certification</a>.</li>
+	<li class="intro__about">always improving my reading, sharing, documenting, and writing code skills.</li>
+</ul>
+
+<h2 class="project">Projects</h2>
+{% for project in site.data.projects%}
+<div class="project__card">
+	<h3 class="project__name">{{project.name}} <span class="project__time">{{project.time}}</span></h3>
+	<p class="project__desc">{{project.desc}}</p>
+	<ul class="project__stacks">
+		🛠️ {% for skill in project.stack%}
+		<li class="project__stack">{{skill}}</li>
+		{% endfor %}
+	</ul>
+	<ul class="project__links">
+		<li class="project__link">demo@<a href="{{ project.demo }}" target="_blank" class="project__demo">{{ project.demo }}</a></li>
+		<li class="project__link">code@<a href="{{ project.code }}" target="_blank" class="project__code">{{ project.code }}</a></li>
+	</ul>
+</div>
+{% endfor %}
+
+<h2 class="media">Contact & Media</h2>
+<ul class="media__links">
+	<li class="media__platform">Email = <a class="media__link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+	<li class="media__platform">Github = <a class="media__link" target="_blank" href="{{ site.social-links.github }}">{{ site.social-links.github }}</a></li>
+	<li class="media__platform">LinkedIn = <a class="media__link" target="_blank" href="{{ site.social-links.linkedIn }}">{{ site.social-links.linkedIn }}</a></li>
+	<li class="media__platform">Twitter = <a class="media__link" target="_blank" href="{{ site.social-links.twitter }}">{{ site.social-links.twitter }}</a></li>
+	<li class="media__platform">Medium = <a class="media__link" target="_blank" href="{{ site.social-links.medium }}">{{ site.social-links.medium }}</a></li>
+</ul>

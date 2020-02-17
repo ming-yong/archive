@@ -1,0 +1,4 @@
+---
+title: Bugs
+tagName: [bugs]
+---

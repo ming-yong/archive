@@ -1,4 +1,73 @@
-@mixin pageList() {
+.intro {
+	margin: 1em 0 0.25em 0;
+
+	&__list{
+		margin: 0 2em;
+		list-style-type: "\1F481";
+	}
+}
+
+@mixin indexList(){
+	font-family: font(title);
+	font-size: 2rem;
+	line-height: 2.5rem;
+	margin: 2.5em 0 0.25em 0;
+}
+
+.project {
+  @include indexList();
+
+	&__card {
+		margin-bottom: 3em;
+	}
+
+	&__name {
+		font-size: 1.5rem;
+		line-height: 2rem;
+		margin: 1em 0 0.25em 0;
+	}
+
+	&__time {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	&__stacks {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: start;
+	}
+
+	&__stack {
+		list-style: none;
+		background: color(highlight);
+		border-radius: 4px;
+		margin: 0.1em;
+		padding: 0 0.4em;
+
+		&:hover {
+			transform: translateY(10%);
+		}
+	}
+
+	&__links {
+		margin: 0 2em;
+		list-style-type: "\1F449";
+	}
+}
+
+.media {
+  @include indexList();
+
+	&__links {
+		margin: 0 2em 3em;
+		list-style-type: "\1F517";
+	}
+}
+
+
+.blog,.tags {
 	&__ul {
 		list-style: none;
 		margin-left: 0;
@@ -13,7 +82,6 @@
 
 	&__date {
 		width: 6rem;
-		// text-align: right;
 	}
 
 	&__name {
@@ -22,80 +90,12 @@
 	}
 
 	&__link {
-		border: none;
-
-		&:hover,
-		&:focus {
-			border: none;
-		}
+    color: color(text);
+    font-family: font(text);
 	}
 }
 
 .folderIcon {
 	color: color(favorite);
 	margin-right: 0.25rem;
-}
-
-.externalIcon {
-	color: color(favorite);
-	margin-left: 0.25rem;
-}
-
-.yesIcon {
-	color: color(favorite);
-}
-
-.noIcon {
-	color: color(text);
-}
-
-.blog,
-.notes,
-.index,
-.tags {
-	@include pageList;
-
-	&__tag {
-		display: none;
-	}
-}
-
-.project {
-	&__ul {
-		list-style: none;
-		margin-left: 0;
-	}
-
-	&__li {
-		border-left: 2px solid color(weak);
-		padding-left: 0.5em;
-		margin: 1em;
-	}
-
-	&__name {
-		font-family: $font-title;
-		font-size: 1.3rem;
-		line-height: 1.8rem;
-	}
-
-	&__desc {
-		padding-left: 0.5em;
-		margin: 0;
-	}
-
-	&__links {
-		margin: 0;
-		list-style: none;
-		display: flex;
-	}
-
-	&__link {
-		margin: 0.5em;
-		border: none;
-
-		&:hover,
-		&:focus {
-			border: none;
-		}
-	}
 }

@@ -1,20 +1,24 @@
-- name: 🤖#100FreeQuestions__2019
-  desc: A Twitter Bot that retweets tech-related questions with hashtag 100FreeQuestions.
-  note: https://ming-yong.github.io/2019/12/22/100FreeQuestions-twitter-bot/
-  demo: https://twitter.com/100FreeCodeQ
-  code: https://github.com/ming-yong/100FreeQuestions/
-- name: MoTo__2019
-  desc: A Momentum clone developed by a remote team(team of 4 including me) in 6 week-long Agile sprints. It's now a Chrome Extension and Open Source project.
-  note: https://medium.com/@mingyong/introducing-moto-from-chingu-voyage-13-c1c1f9e98f80
-  demo: https://moto-toucans03.netlify.com/
-  code: https://github.com/chingu-voyages/v13-toucans-team-03
-- name: Favorite-Fonts__2019
-  desc: A pre-work submission for entering Chingu program. Mockups such as gif, image and some instructions are provided to complete this project.
-  note: https://ming-yong.github.io/2019/12/06/chingu-vouage-13-pre-work-project-tier-1/
-  demo: https://ming-yong.github.io/Favorite-Fonts/
-  code: https://github.com/ming-yong/Favorite-Fonts
-- name: Jekyll Website__2019
-  desc: A personal website tailored to my learning process.
-  note: https://ming-yong.github.io/2019/07/19/website-evolution/
+- name: Portfolio
+  time: May2019 - now
+  desc: A place for documenting and applying my learning of computer programming.
+  stack: [HTML,CSS(SCSS&BEM methodology),Jekyll,Github Pages,Git]
   demo: https://ming-yong.github.io/
   code: https://github.com/ming-yong/ming-yong.github.io
+- name: MoTo(MVP version)
+  time: Nov2019 - Dec2019
+  desc: Momentum clone built remotely with 3 developers in 6 week-long Agile sprints.
+  stack: [Agile methodology,Git,Netlify,HTML,CSS(BEM),JavaScript]
+  demo: https://moto-toucans03.netlify.com/
+  code: https://github.com/chingu-voyages/v13-toucans-team-03
+- name: Give Me Gif
+  time: Dec2019
+  desc: A random gif generator with key sequence detection.
+  stack: [NodeJS,Wordnik&Giphy API,Heroku,HTML,CSS,Git,Github Pages]
+  demo: https://give-me-gif.herokuapp.com/
+  code: https://github.com/ming-yong/JS30-12-give-me-gif
+- name: Tic Tac Toe
+  time: Nov2019
+  desc: Classic React project with features such as game history and more.
+  stack: [ReactJS,HTML,CSS,Git,Github Pages]
+  demo: https://ming-yong.github.io/react-tic-tac-toe/
+  code: https://github.com/ming-yong/react-tic-tac-toe

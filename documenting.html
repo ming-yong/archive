@@ -1,0 +1,18 @@
+---
+title: Documenting
+permalink: doc
+---
+
+{% assign sorted_posts = site.categories.post| reversed %}
+<ul class="blog__ul">
+{% for post in sorted_posts %}
+    <li class="blog__li">
+      <span class="blog__date">
+        {{ post.date | date: "%b %Y" }}
+      </span>
+      <span class="blog__name">
+        <a href="{{ post.url | relative_url }}" class="blog__link">{{ post.title }}</a>
+      </span>
+    </li>
+{% endfor %}
+</ul>

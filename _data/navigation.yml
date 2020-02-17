@@ -1,6 +1,5 @@
-- name: BLOG
-  link: /myBlog
-- name: PROJECTS
-  link: /projects
-- name: NOTES
-  link: /notes
+- name: programming
+  link: /
+- name: documenting
+  link: /doc
+

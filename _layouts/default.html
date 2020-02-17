@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>{{ site.title }} | Developer</title>
+		<title>{{ site.title }}//developer</title>
 
 		<!-- style -->
 		<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet" />
@@ -29,20 +29,15 @@
 		</script>
 	</head>
 	<body>
-		<header id="header">
-			<a href="{{site.baseurl}}/" class="siteName">{{ site.title }}<span class="siteName__span">Yong</span></a>
+		<header class="header">
+			<p href="{{site.baseurl}}/" class="header__siteName">{{ site.title | upcase }}</p>
 			<nav class="nav">
-				<ul class="nav__ul">
-					{% for item in site.data.navigation %}
-					<li class="nav__li">
-						<a href="{{ item.link | relative_url }}" class="nav__a">{{ item.name }}</a>
-					</li>
-					{% endfor %}
-				</ul>
+						<a href="{{ "/ "| relative_url }}" class="nav__link">Programming</a>
+						&
+						<a href="{{ "/doc "| relative_url }}" class="nav__link">Documenting</a>
 			</nav>
 		</header>
 		<main>
-			<h1>{{page.title}}</h1>
 			{{content}}
 		</main>
 		<footer class="footer">

@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ming-yong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :year/:month/:day/:title/
 markdown: kramdown
-logo: /assets/images/titleImage.jpg
+logo: /assets/images/logo.gif
 
 ####layout####
 defaults:
@@ -23,7 +23,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/titleImage.jpg
+      image: /assets/images/logo.gif
       layout: "default"
 
 social-links:
@@ -31,6 +31,7 @@ social-links:
   github: https://github.com/ming-yong
   linkedIn: https://www.linkedin.com/in/ming-yong
   twitter: https://twitter.com/ming__yong
+  medium: https://medium.com/@mingyong
 
 ####seo####
 twitter_username: ming__yong
