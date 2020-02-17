@@ -10,18 +10,15 @@ image: /assets/images/2019/2019.PNG
 
 That's a sketch of how I feel most of the time(It can be frustrating sometimes). Anyway, here's what I've done in my first 15 months of learning:
 
-- [learn HTML, CSS, Javascript and build my first project](#certifications-and-first-project).
+- [learn HTML, CSS, Javascript and build my first project](#first-line-of-code-to-first-project).
 - [meeting and working with people](#connecting-with-people).
 - [a total of 35 builds](#built-35-things-learning-6-skills).
 
-## Certifications and first project
+My daily process is posted on [Twitter]({{site.social-links.twitter}}) with hashtag [100DaysOfCode](https://www.100daysofcode.com/).
 
-With the help of [100DaysOfCode](https://www.100daysofcode.com/), I completed two freeCodeCamp certifications:
+## First line of code to first project
 
-- [Responsive Web Design Certification](https://www.freecodecamp.org/certification/ming-yong/responsive-web-design)
-- [Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/ming-yong/javascript-algorithms-and-data-structures)
-
-and took [JavaScript30](https://javascript30.com/) before learning ReactJS and NodeJS.
+I started learning HTML and CSS through curriculums under [Responsive Web Design Certification](https://www.freecodecamp.org/certification/ming-yong/responsive-web-design). After feeling quite comfortable with my HTML and CSS skills, I decided to build my first project.
 
 ### My first project
 
@@ -42,6 +39,12 @@ Version 3 has syntax highlighting and colour orange.
 
 I separated notes with posts in version 4. Remove JavaScript and rewrite my CSS with BEM methodology.
 ![version 4]({{site.baseurl}}/assets/images/2019/jekyll/v4blog.gif)
+
+So to say, it's in version 5.
+
+### JavaSCript
+
+I was also working on my [Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/ming-yong/javascript-algorithms-and-data-structures) at that time. I wasn't feeling very comfortable with my JS after so I took [JavaScript30](https://javascript30.com/) before moving onto learning ReactJS and NodeJS.
 
 ## Connecting with people
 
@@ -72,6 +75,8 @@ I got accepted into Chingu Voyage 13, a program where you can team up with other
 We built a Momentum clone named [MoTo](https://medium.com/@mingyong/introducing-moto-from-chingu-voyage-13-c1c1f9e98f80) in 6 week-long Agile sprints.
 
 ## Built 35 things learning 6 skills
+
+In sum, I've experience with HTML and CSS, Jekyll, Vanilla JS, ReactJS, NodeJS, and working in a remote team using Agile methodology as a 15-month-old coder.
 
 {% for build in site.data.2019 %}
 <p>
