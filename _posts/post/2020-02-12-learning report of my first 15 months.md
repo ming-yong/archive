@@ -42,9 +42,9 @@ I separated notes with posts in version 4. Remove JavaScript and rewrite my CSS 
 
 So to say, it's in version 5.
 
-### JavaSCript
+### JavaScript
 
-I was also working on my [Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/ming-yong/javascript-algorithms-and-data-structures) at that time. I wasn't feeling very comfortable with my JS after so I took [JavaScript30](https://javascript30.com/) before moving onto learning ReactJS and NodeJS.
+I was also working on my [Javascript Algorithms And Data Structures Certification](https://www.freecodecamp.org/certification/ming-yong/javascript-algorithms-and-data-structures) at that time. I wasn't feeling very comfortable with JavaScript after so I took [JavaScript30](https://javascript30.com/) before moving onto learning ReactJS and NodeJS.
 
 ## Connecting with people
 
