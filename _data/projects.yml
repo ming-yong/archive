@@ -1,24 +1,28 @@
-- name: Portfolio
+- name: Portfolio/Blog
   time: May2019 - now
   desc: A place for documenting and applying my learning of computer programming.
   stack: [HTML,CSS(SCSS&BEM methodology),Jekyll,Github Pages,Git]
   demo: https://ming-yong.github.io/
   code: https://github.com/ming-yong/ming-yong.github.io
+  doc: https://ming-yong.github.io/doc
 - name: MoTo(MVP version)
   time: Nov2019 - Dec2019
   desc: Momentum clone built remotely with 3 developers in 6 week-long Agile sprints.
   stack: [Agile methodology,Git,Netlify,HTML,CSS(BEM),JavaScript]
   demo: https://moto-toucans03.netlify.com/
   code: https://github.com/chingu-voyages/v13-toucans-team-03
+  doc: https://medium.com/@mingyong/introducing-moto-from-chingu-voyage-13-c1c1f9e98f80
 - name: Give Me Gif
   time: Dec2019
   desc: A random gif generator with key sequence detection.
   stack: [NodeJS,Wordnik&Giphy API,Heroku,HTML,CSS,Git,Github Pages]
   demo: https://give-me-gif.herokuapp.com/
   code: https://github.com/ming-yong/JS30-12-give-me-gif
+  doc: https://github.com/ming-yong/JS30-12-give-me-gif#notes
 - name: Tic Tac Toe
   time: Nov2019
   desc: Classic React project with features such as game history and more.
   stack: [ReactJS,HTML,CSS,Git,Github Pages]
   demo: https://ming-yong.github.io/react-tic-tac-toe/
   code: https://github.com/ming-yong/react-tic-tac-toe
+  doc: https://ming-yong.github.io/2019/11/23/react-tic-tac-toe-remaining-features/

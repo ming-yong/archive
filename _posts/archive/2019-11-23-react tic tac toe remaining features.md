@@ -21,7 +21,7 @@ In this post, I will finish up my React Tic Tac Toe by adding the following feat
 
 ## Col row position
 
-![demonstration of col row position feature]({{site.baseurl}}/assets/images/2019/react/react_ticTacToe_colRowPosition.gif)
+![demonstration of col row position feature]({{site.baseurl}}/assets/images/2019/react/react_ticTacToe_colrowposition.gif)
 
 Adding the (col,row) to the move buttons requires 3 steps.
 
