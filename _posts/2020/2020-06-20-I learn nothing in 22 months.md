@@ -60,5 +60,3 @@ I got accepted into Chingu Voyage 13.
 ![Chingu certification]({{site.baseurl}}/assets/images/2019/chingu/chinguCert.PNG)
 
 We built a Momentum clone named [MoTo](https://medium.com/@mingyong/introducing-moto-from-chingu-voyage-13-c1c1f9e98f80) in 6 week-long Agile sprints.
-
-And that's all I can recall from my memory.
