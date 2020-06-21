@@ -1,0 +1,4 @@
+---
+title: functionalProgramming
+tagName: functionalProgramming
+---

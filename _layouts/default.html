@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>{{ site.title }}//developer</title>
+		<title>Ming's {{ site.title }}</title>
 
 		<!-- style -->
 		<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet" />
@@ -30,19 +30,13 @@
 	</head>
 	<body>
 		<header class="header">
-			<p href="{{site.baseurl}}/" class="header__siteName">{{ site.title | upcase }}</p>
-			<nav class="nav">
-						<a href="{{ "/ "| relative_url }}" class="nav__link">Programming</a>
-						&
-						<a href="{{ "/doc "| relative_url }}" class="nav__link">Documenting</a>
-			</nav>
+			<a href="{{site.baseurl}}/" class="header__siteName">{{ site.title }}</a>
 		</header>
 		<main>
 			{{content}}
 		</main>
 		<footer class="footer">
 			<p class="footer__p"><a href="{{ site.social-links.repo }}">Everything</a> by Ming🙋</p>
-			<p class="footer__p">Tweet me your <a href="https://twitter.com/intent/tweet?hashtags=commentMing">thoughts</a></p>
 		</footer>
 	</body>
 </html>

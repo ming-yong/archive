@@ -1,71 +1,19 @@
-.intro {
-	margin: 1em 0 0.25em 0;
+.tagCloud{
+	display:flex;
+	flex-wrap: wrap;
+	margin: 2em 0;
 
-	&__list{
-		margin: 0 2em;
-		list-style-type: "\1F481";
-	}
-}
-
-@mixin indexList(){
-	font-family: font(title);
-	font-size: 2rem;
-	line-height: 2.5rem;
-	margin: 2.5em 0 0.25em 0;
-}
-
-.project {
-  @include indexList();
-
-	&__card {
-		margin-bottom: 3em;
-	}
-
-	&__name {
-		font-size: 1.5rem;
-		line-height: 2rem;
-		margin: 1em 0 0.25em 0;
-	}
-
-	&__time {
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
-
-	&__stacks {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: start;
-	}
-
-	&__stack {
-		list-style: none;
+	&__tag{
 		border:2px solid color(highlight);
 		border-radius: 4px;
-		margin: 0.1em;
+		margin: 0.2em;
 		padding: 0 0.4em;
 
 		&:hover {
 			transform: translateY(10%);
 		}
 	}
-
-	&__links {
-		padding: 0 2em;
-		list-style-type: "\1F449";
-	}
 }
-
-.media {
-  @include indexList();
-
-	&__links {
-		padding: 0 2em;
-		list-style-type: "\1F517";
-	}
-}
-
 
 .blog,.tags {
 	&__ul {

@@ -1,9 +1,9 @@
 ####site setting####
-title: Ming
+title: Log
 author: Ming Yong
 description: I write about my learning of computer programming.
 email: mingyong.dev@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of yoLur site, e.g. /blog
 url: "http://ming-yong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :year/:month/:day/:title/
 markdown: kramdown
@@ -28,10 +28,7 @@ defaults:
 
 social-links:
   repo: https://github.com/ming-yong/ming-yong.github.io
-  github: https://github.com/ming-yong
-  linkedIn: https://www.linkedin.com/in/ming-yong
   twitter: https://twitter.com/ming__yong
-  medium: https://medium.com/@mingyong
 
 ####seo####
 twitter_username: ming__yong
@@ -51,9 +48,9 @@ social:
     - https://github.com/ming-yong
 
 ####plugins####
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
 
 #### Syntax highlighting ####
 # Jekyll 3 now only supports Kramdown for Markdown

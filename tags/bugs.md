@@ -1,4 +1,4 @@
 ---
 title: Bugs
-tagName: [bugs]
+tagName: Bugs
 ---
