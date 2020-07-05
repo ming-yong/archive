@@ -1,5 +1,5 @@
 ####site setting####
-title: Log
+title: Brain Dump
 author: Ming Yong
 description: I write about my learning of computer programming.
 email: mingyong.dev@gmail.com
@@ -12,9 +12,9 @@ logo: /assets/images/logo.gif
 ####layout####
 defaults:
   - scope:
-      path: "tags"
+      path: "categories"
     values:
-      layout: "tag"
+      layout: "category"
   - scope:
       path: ""
       type: "posts"
@@ -31,21 +31,21 @@ social-links:
   twitter: https://twitter.com/ming__yong
 
 ####seo####
-twitter_username: ming__yong
-github_username: ming-yong
-codepen_username: ming-yong
-linkedin_username: ming-yong
+# twitter_username: ming__yong
+# github_username: ming-yong
+# codepen_username: ming-yong
+# linkedin_username: ming-yong
 
-twitter:
-  username: ming__yong
-  card: summary
+# twitter:
+#   username: ming__yong
+#   card: summary
 
-social:
-  name: Ming Yong
-  links:
-    - https://twitter.com/ming__yong
-    - https://www.linkedin.com/in/ming-yong
-    - https://github.com/ming-yong
+# social:
+#   name: Ming Yong
+#   links:
+#     - https://twitter.com/ming__yong
+#     - https://www.linkedin.com/in/ming-yong
+#     - https://github.com/ming-yong
 
 ####plugins####
 # plugins:

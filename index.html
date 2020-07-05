@@ -1,18 +1,17 @@
 ---
-title: log
+title: brainDump
 permalink: /
 ---
 
 <div class="tagCloud">
-  {% for tag in site.tags %}
-    <a class="tagCloud__tag" href="{{ site.baseurl }}/tags/{{ tag[0] }}">{{ tag[0] }}</a>
+  {% for category in site.categories %}
+    <a class="tagCloud__tag" href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a>
   {% endfor %}
 </div>
 
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul class="blog__ul">
-    {% for post in category[1] %}
+<ul class="blog__ul">
+  {% for post in site.posts %}
+    {% if post.category != 2019 %}
       <li class="blog__li">
         <span class="blog__date">
           {{ post.date | date: "%b %Y" }}
@@ -21,6 +20,6 @@ permalink: /
           <a href="{{ post.url | relative_url }}" class="blog__link">{{ post.title }}</a>
         </span>
       </li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>
