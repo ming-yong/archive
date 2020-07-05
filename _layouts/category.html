@@ -9,7 +9,7 @@ layout: default
     {% if post.category == page.catName %}
       <li class="tags__li">
         <span class="tags__date">
-          {{ post.date | date: "%b %Y" }}
+          {{ post.date | date: "%b %d %Y" }}
         </span>
         <span class="tags__name">
           <a href="{{ post.url | relative_url }}" class="tags__link">{{ post.title }}</a>

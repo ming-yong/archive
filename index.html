@@ -14,7 +14,7 @@ permalink: /
     {% if post.category != 2019 %}
       <li class="blog__li">
         <span class="blog__date">
-          {{ post.date | date: "%b %Y" }}
+          {{ post.date | date: "%b %d %Y" }}
         </span>
         <span class="blog__name">
           <a href="{{ post.url | relative_url }}" class="blog__link">{{ post.title }}</a>
