@@ -6,17 +6,19 @@ category: 2020
 
 It's time to change my approach to learning programming.
 
-## What I plan to do
+## Problems in my current approach
 
-Cut out the passive learning part.
+I am very good at taking tests and following tutorials. The downside of this is I tend to fall into an "autopilot learning" mode. My focus becomes completing the challenges and finish all the videos. I am making progress statistically, but there is no thinking involved and problem to solve in the process. 
 
-### No tutorial projects and freeCodeCamp
+Secondly, I found myself branching off the curriculum a lot. Should I follow my current interest and learn what I want? Or should I follow the learning path because it is well-designed?
 
-I'm pretty good at two things: following tutorials and taking test. When doing freeCodeCamp challenges or building a tutorial project, I found myself in a "autopilot learning mode". My focus becomes passing the tests or finish the videos. There's no thinking involved and no problem to solve. Nothing retained. This time I will try to learn a tool by reading its documentation instead.
+### What I plan to do
 
-### Daily brain dump
+Here are a few things I am planning to do this time:
 
-The best way to avoid falling into autopilot learning mode will probably be writing a log everyday. I will try to be clear on what I know and what I don't know. The point is to find the margin to improve and be slightly better everyday.
+1. No tutorials. No freeCodeCamp. If I want to learn how a tool works, I will read the documentation and build a toy project.
+2. I will write about what I learn daily(brain dump). I don't like the word "blog" that much, mainly because I feel like I am writing for someone. I am not trying to write an article but more of a public learning journal. The ideas of "daily brain dump" are creating a habit of showing up to learning daily, practice talking about ideas(which I am super bad at), and avoid falling into "autopilot learning" mode.
+3. When I feel like I have enough knowledge on a topic, I will publish a post on Dev.to and talk about it with other developers.
 
 ## What I've done
 
