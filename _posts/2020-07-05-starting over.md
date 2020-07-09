@@ -17,7 +17,7 @@ Secondly, I found myself branching off the curriculum a lot. Should I follow my 
 Here are a few things I am planning to do this time:
 
 1. No tutorials. No freeCodeCamp. If I want to learn how a tool works, I will read the documentation and build a toy project.
-2. I will write about what I learn daily(brain dump). I don't like the word "blog" that much, mainly because I feel like I am writing for someone. I am not trying to write an article but more of a public learning journal. The ideas of "daily brain dump" are creating a habit of showing up to learning daily, practice talking about ideas(which I am super bad at), and avoid falling into "autopilot learning" mode.
+2. I will write about what I learn daily(brain dump). I don't like the word "blog" that much, mainly because I feel like I am writing for someone. I am not trying to write an article but more of a public learning journal. The ideas of "daily brain dump" are creating a habit of showing up to learning everyday, practice talking about ideas(which I am super bad at), and avoid falling into "autopilot learning" mode.
 3. When I feel like I have enough knowledge on a topic, I will publish a post on Dev.to and talk about it with other developers.
 
 ## What I've done
