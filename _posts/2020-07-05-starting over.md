@@ -42,7 +42,7 @@ I separated notes with posts in version 4. Remove JavaScript and rewrite my CSS 
 ![version 4]({{site.baseurl}}/assets/images/2019/jekyll/v4blog.gif)
 
 Then I made it into a portfolio.
-![version 5]({{site.baseurl}}/assets/images/2020/log/v5.gif)
+![version 5]({{site.baseurl}}/assets/images/2020/v5.gif)
 
 ### Meet people
 
