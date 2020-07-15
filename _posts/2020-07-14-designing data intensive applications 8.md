@@ -1,5 +1,5 @@
 ---
-title: Designing Data-Intensive Applications - 7
+title: Designing Data-Intensive Applications - 8
 description: Reading "Designing Data-Intensive Applications" by Martin Kleppmann
 category: 2020
 ---
