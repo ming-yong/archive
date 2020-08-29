@@ -3,7 +3,7 @@ title: Brain Dump
 author: Ming Yong
 description: I write about my learning of computer programming.
 email: mingyong.dev@gmail.com
-baseurl: "" # the subpath of yoLur site, e.g. /blog
+baseurl: "/archive" # the subpath of yoLur site, e.g. /blog
 url: "http://ming-yong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :year/:month/:day/:title/
 markdown: kramdown

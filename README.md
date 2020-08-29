@@ -1,4 +1,6 @@
-This is a daily learning log, [click here to learn more](https://ming-yong.github.io)!
+# Archive
+
+This is a learning log, [click here to learn more](https://ming-yong.github.io/archive)!
 
 - Built with Jekyll, HTML CSS(SCSS and BEM)
 - Using VS Code, Git Bash, Google Chrome and Firefox
